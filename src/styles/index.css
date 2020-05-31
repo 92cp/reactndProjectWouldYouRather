@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.app-heading {
+  text-align: center;
+  width:100%;
+  background: #1e1e08;
+  color:#f5d13a;
+  font-weight:bolder;
+  padding:10px;
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+nav{
+  margin-top:0px;
+  padding:10px;
+  background: #d9d4ca;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.50);
+}
+
+.nav-link{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration:none;
+  color: #1e1e08;
+}
+
+.user{
+  margin-top: 10px;
+  color: #1e1e08;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.img-avatar{
+  margin-right:10px;
+  height:25px;
+  position:relative;
+  top:5px;
+  border-radius: 20px;
+  width:auto;
+  border: solid 2px #fff;
+}
+
+.login-card{
+  margin-top: 20px;
+  width:400px;
+  height:310px;
+  border:solid 1px #ddd;
+  padding: 15px;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  background-color: #d9d4ca;
+}
+
+.login-container{
+  width:100%;
+}
+
+.login-heading{
+  width:100%;
+  margin:0px;
+  color: #1e1e08;
+  padding: 5px 0px 5px 0px;
+}
+
+.signInLogo{
+  margin: 20px 0px 0px 0px;
+  height:100px;
+  width:auto;
+}
+
+select{
+  width:70%;
+  padding:10px;
+  background:#fff;
+  border-radius:5px;
+}
+
+option{
+  padding:10px;
+  background:#fff;
+}
+
+.sign-in-button{
+  padding:10px;
+  background:#f5d13a;
+  border:solid 1px #f5d13a;
+  border-radius:5px;
+  color:#1e1e08;
+  font-weight:bolder;
+  margin: 10px 0px 0px 0px;
+  width: 70%;
+}
+
+.sign-out-button{
+  text-decoration: none;
+  background:#f5d13a;
+  border:solid 1px #fff;
+  border-radius:5px;
+  color:#1e1e08;
+  position: relative;
+  bottom: 2px;
+  font-weight:bolder;
+  margin: 10px 0px 0px 0px;
+}
+
+.prompt-button{
+  text-decoration: none;
+  background:#f5d13a;
+  border:solid 1px #fff;
+  border-radius:5px;
+  color:#1e1e08;
+  padding: 3px;
+  position: relative;
+  font-weight:bolder;
+  margin: 10px 0px 0px 0px;
+}
+
+.white{
+  color: white !important;
+}
+
+.user-name{
+  position: relative;
+}
+
+.poll-card{
+  border: solid 1px #d9d4ca;
+  background-color: #1e1e08;
+  color: #f5d13a;
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+  margin: 16px auto;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.50);
+}
+
+.poll-card-avatar{
+  height:50px;
+  width:auto;
+  border-radius: 25px;
+}
+
+.truncate {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin:auto;
+}
+
+.poll-user{
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+  width:100%;
+  background: #d9d4ca;
+  margin-bottom:10px;
+  color: #1e1e08;
+}
+
+.poll-user > h4{
+
+  margin: 0;
+
+}
+
+.top-10{
+  margin-top: 10px;
+}
+
+.border {
+  border: solid 1px #ddd;
+  padding:5px;
+  border-radius: 25px;
+}
+
+.input-options{
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  border: solid 1px #ccc;
+  margin:10px;
+  width:60%;
+}
+
+
